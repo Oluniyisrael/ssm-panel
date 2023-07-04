@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
+import './Form.css'
 import CustomInput from '../customInputs/CustomInput'
 import CustomButton from '../customButton/CustomButton'
-import './Form.css'
 import database from '../../assets/jsons/database.json'
 import isCorrect from '../functions/isCorrect/IsCorrect'
 
@@ -13,19 +13,26 @@ function Form() {
     <form action="" id='form'>
         <p id='banner'>Welcome!! Please Input your username and password</p>
 
-        <CustomInput 
-        type='text'
-        id='username'
-        placeholder = 'Username'
-        name= 'username'
-        onchange={(e)=>{setUserName(e.target.value)}}/>
+        <div id='disFlex'>
+          <div className='inputCont'>
+              <p>Username</p>
+              <CustomInput 
+              type='text'
+              id='username'
+              name= 'username'
+              onchange={(e)=>{setUserName(e.target.value)}}/>
+          </div>
 
+          <div className='inputCont'>
+              <p>Username</p>
         <CustomInput
         type='password'
         id='password'
-        placeholder = 'Password'
         name= 'password'
         onchange={(e)=>{setPassword(e.target.value)}}/>
+        </div>
+          
+        </div>
         
         <CustomButton value='Submit' onClick={()=>{isCorrect(database,username,password)}} id='submitBtn'/>
     </form> 

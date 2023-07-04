@@ -1,12 +1,15 @@
 nav {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     top: 0;
-    width: auto;
-    background-color:  #131b32;
-    padding: 10px;
-    height: 50px;
+    width: 100%;
+    /* background-color:  #131b32; */
+    background-color: transparent;
+    height: fit-content;
+    position: absolute;
+
   }
   #logo{
     height: 50px;

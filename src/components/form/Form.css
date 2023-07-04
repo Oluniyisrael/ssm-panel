@@ -5,9 +5,25 @@
     /* width: 50%; */
 }
 #form{
-    width: 400px;
+    width: 800px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+
 }
 #submitBtn:hover{
     background-color: yellow;
     color: black;
+}
+#disFlex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+input[type=text]{
+    border-radius: 20px;
 }
