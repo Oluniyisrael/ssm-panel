@@ -24,7 +24,7 @@ function Form() {
           </div>
 
           <div className='inputCont'>
-              <p>Username</p>
+              <p>Password</p>
         <CustomInput
         type='password'
         id='password'
