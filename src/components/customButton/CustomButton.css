@@ -1,0 +1,12 @@
+input[type=button]{
+    padding: 1px;
+    border: 1px solid black;
+    color: yellow;
+    transition: 500ms;
+    background-color:#131b32 ;
+    margin: 5px;
+    cursor: pointer;
+    /* padding: 20px; */
+    width: 200px;
+    height: 40px;
+}

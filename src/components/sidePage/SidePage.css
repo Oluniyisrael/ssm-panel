@@ -1,0 +1,12 @@
+#sidePage{
+    width: 50%;
+    height: 100vh;
+    background-color: #131b32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo{
+    width: 70%;
+}

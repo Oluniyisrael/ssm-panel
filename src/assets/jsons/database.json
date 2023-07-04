@@ -1,0 +1,23 @@
+[
+    { 
+        "id":1,
+        "username":"AUL/CMP/22/072",
+        "password":"123456789",
+        "admin": true
+    },
+    { 
+        "id":2,
+        "username":"AUL/CMP/22/001",
+        "password":"123456789",
+        "admin": false
+    },
+
+    {
+        "id":3, 
+        "username":"AUL/CMP/22/002",
+        "password":"123456789",
+        "admin": false
+    }
+    
+   
+]

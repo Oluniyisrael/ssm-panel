@@ -1,0 +1,13 @@
+#banner{
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: justify;
+    /* width: 50%; */
+}
+#form{
+    width: 400px;
+}
+#submitBtn:hover{
+    background-color: yellow;
+    color: black;
+}

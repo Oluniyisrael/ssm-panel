@@ -1,0 +1,13 @@
+input{
+    background-color: transparent;
+    font-size: 20px;
+    /* border-radius:20px;  */
+    padding:10px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    display: block;
+}
+input:hover{
+    background-color: transparent;
+}
