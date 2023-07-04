@@ -5,12 +5,13 @@ import Login from '../../components/loginPage/Login'
 import NavBar from '../../components/navBar/NavBar'
 import Form from '../../components/form/Form'
 
-function LandingPage() {
+function LandingPage(props) {
   return (
     <div className='LandingPageCont'>
           <NavBar/>
         <Login>
-          <Form/>
+          <Form
+          setIsLoggedIn= {props.setIsLoggedIn}/>
         </Login>
     </div>
   )
