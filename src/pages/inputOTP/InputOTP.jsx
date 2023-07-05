@@ -9,7 +9,7 @@ function InputOTP() {
     <div className='pageContainer'>
             <NavBar/>
         <form action="" id='form'>
-            <div>
+            <div className='container'>
                 <p>Enter OTP</p>
                 <CustomInput
                         id='Email'

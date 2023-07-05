@@ -2,6 +2,7 @@ input[type=button]{
     padding: 1px;
     border: 1px solid black;
     color: yellow;
+    border-radius: 20px;
     transition: 500ms;
     background-color:#131b32 ;
     margin: 5px;

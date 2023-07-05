@@ -1,23 +1,15 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Form.css'
 import CustomInput from '../customInputs/CustomInput'
 import CustomButton from '../customButton/CustomButton'
-import database from '../../assets/jsons/database.json'
-import isCorrect from '../functions/isCorrect/IsCorrect'
+// import database from '../../assets/jsons/database.json'
+// import isCorrect from '../functions/isCorrect/IsCorrect'
 
 
 function Form(props) {
-  const [username,setUserName] = useState('')
-  const [password,setPassword] = useState('')
- const isLoggedIn = props.isLoggedIn
- const setIsLoggedIn = props.setIsLoggedIn
- if(isCorrect === true){
-  setIsLoggedIn(true)
-  console.log('true')
- }
- console.log(isCorrect === true)
- 
+  // const [username,setUserName] = useState('')
+  // const [password,setPassword] = useState('')
   return (
     <form action="" id='form'>
         <p id='banner'>Welcome!! Please Input your username and password</p>
@@ -29,7 +21,9 @@ function Form(props) {
               type='text'
               id='username'
               name= 'username'
-              onchange={(e)=>{setUserName(e.target.value)}}/>
+              // onchange={(e)=>{
+              //   setUserName(e.target.value)}}
+                />
           </div>
 
           <div className='inputCont'>
@@ -38,7 +32,8 @@ function Form(props) {
         type='password'
         id='password'
         name= 'password'
-        onchange={(e)=>{setPassword(e.target.value)}}/>
+        // onchange={(e)=>{setPassword(e.target.value)}}
+        />
         </div>
           
         </div>
@@ -50,8 +45,16 @@ function Form(props) {
         <Link to={'forgotpassword'}> Forgotten Password</Link>
                 </div>
         </div>
+
         
-        <CustomButton value='Submit' onClick={()=>{isCorrect(database,username,password,setIsLoggedIn,isLoggedIn)}} id='submitBtn'/>
+        <CustomButton value='Submit' 
+        // onClick={()=>{isCorrect(database,username,password,setIsLoggedIn,isLoggedIn)}}
+         id='submitBtn'/>
+        <div>Dont have an account? 
+          {/* <Link to='/signup'>Sign up</Link> */}
+          </div>
+
+
     </form> 
   )
 }
