@@ -12,6 +12,12 @@ function Form(props) {
   const [password,setPassword] = useState('')
  const isLoggedIn = props.isLoggedIn
  const setIsLoggedIn = props.setIsLoggedIn
+ if(isCorrect === true){
+  setIsLoggedIn(true)
+  console.log('true')
+ }
+ console.log(isCorrect === true)
+ 
   return (
     <form action="" id='form'>
         <p id='banner'>Welcome!! Please Input your username and password</p>
