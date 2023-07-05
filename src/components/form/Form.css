@@ -20,7 +20,7 @@
     background-color: yellow;
     color: black;
 }
-#disFlex{
+.disFlex{
     width: 100%;
     display: flex;
     justify-content: space-around;

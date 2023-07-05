@@ -11,7 +11,8 @@ function LandingPage(props) {
           <NavBar/>
         <Login>
           <Form
-          setIsLoggedIn= {props.setIsLoggedIn}/>
+          setIsLoggedIn= {props.setIsLoggedIn}
+          isLoggedIn = {props.isLoggedIn}/>
         </Login>
     </div>
   )
