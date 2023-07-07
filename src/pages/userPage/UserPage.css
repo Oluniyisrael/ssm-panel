@@ -3,3 +3,57 @@
     height: auto;
     min-height: 100vh;
 }
+#overlay{
+    padding-top: 50px;
+    margin-left: 251px;
+    width: -webkit-fill-available;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+.diver{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    width: 80%;
+}
+.containerRow{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+#overFirst{
+    background:linear-gradient( to right,#161B33, rgba(29, 47, 151, 0.109)),url(/src/assets/images/jps/programmer.png)#161B33 ;
+    background-size: 100% 100%;
+
+    width: 25%;
+}
+.firstOverlay{
+    width: 40%;
+    height: 200px;
+    border-radius: 20px;
+    color: white;
+    background: #161B33;
+}
+.red{
+    color: red;
+}
+.Faicon{
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+}
+.overlayChild{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 20px;
+}
+@media screen and (max-width:800px) {
+    #overlay {
+        margin-left: 0;
+    }
+}

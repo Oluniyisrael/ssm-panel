@@ -7,10 +7,11 @@ nav {
     width: -webkit-fill-available;
         /* background-color:  #131b32; */
     background-color: #161B33;
-    border:1px solid black ;
     height: fit-content;
     position: absolute;
-
+  }
+  #nav{
+    /* border:20px solid black ; */
   }
   #logo{
     height: 80px;

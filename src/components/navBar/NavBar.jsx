@@ -13,7 +13,7 @@ function NavBar() {
     // console.log(document.getElementsByClassName('userSideBar')[0].classList.toggle('normal'))
     }
   return (
-    <nav>
+    <nav id='nav'>
         <CustomButton
         value = '☰' 
         id='hamburger'
@@ -25,9 +25,9 @@ function NavBar() {
         <li>
           <Link to={''}> <FaRegSun className='fa settings'/> </Link>
         </li>
-          <Link to={''}>
+          {/* <Link to={''}>
               <img src={logo} alt="logo" id='logo'/> 
-          </Link>
+          </Link> */}
         <li>
           <Link to={''}> <FaHistory className='fa'/></Link>
         </li>
