@@ -11,7 +11,7 @@ function UserPage() {
         <NavBar/>
         <CustomSideBar/>      
         <PageHolder id='userPage'>
-            hi
+            
         </PageHolder>
     </div>
   )
