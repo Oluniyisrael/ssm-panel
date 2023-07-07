@@ -4,9 +4,10 @@ nav {
     align-items: center;
     justify-content: center;
     top: 0;
-    width: 100%;
-    /* background-color:  #131b32; */
-    background-color: transparent;
+    width: -webkit-fill-available;
+        /* background-color:  #131b32; */
+    background-color: #161B33;
+    border:1px solid black ;
     height: fit-content;
     position: absolute;
 
@@ -42,6 +43,40 @@ nav {
     height: 30px;
     border-radius: 10px; */
     }
+    #navContents li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+    .fa{
+      color: #ff6d00;
+        animation-name: rotate;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }    
+  /* Define the keyframes */
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the keyframes to an element */
+.settings{
+  animation-name: rotation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
   
   @media screen and (max-width: 768px) {
     nav {
@@ -53,7 +88,7 @@ nav {
         width: 200px;
       }
     ul {
-      flex-direction: column;
+      /* flex-direction: column; */
       align-items: flex-start;
     }
   
