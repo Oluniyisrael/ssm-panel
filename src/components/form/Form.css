@@ -7,14 +7,14 @@
 #form{
     width: 800px;
     border-radius: 30px;
-    background: url(/src/assets/images/jps/89766.jpg) no-repeat;
+    background:linear-gradient(#26113230,#261132,url(/src/assets/images/jps/89766.jpg) no-repeat) ;
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20em;
-
+    min-height: 20em;
+    height: auto;    
 }
 #submitBtn:hover{
     background-color: yellow;

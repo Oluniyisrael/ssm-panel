@@ -7,7 +7,7 @@ import CustomButton from '../customButton/CustomButton'
 // import isCorrect from '../functions/isCorrect/IsCorrect'
 
 
-function Form(props) {
+function Form() {
   // const [username,setUserName] = useState('')
   // const [password,setPassword] = useState('')
   return (
@@ -46,12 +46,14 @@ function Form(props) {
                 </div>
         </div>
 
-        
+        <Link to='/user'>
+
         <CustomButton value='Submit' 
         // onClick={()=>{isCorrect(database,username,password,setIsLoggedIn,isLoggedIn)}}
-         id='submitBtn'/>
+        id='submitBtn'/>
+        </Link>
         <div>Dont have an account? 
-          {/* <Link to='/signup'>Sign up</Link> */}
+          <Link to='/signup'>Sign up</Link>
           </div>
 
 

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+.LandingPageCont{
+    height: 100vh;
+    width: 100%;
+    background-color: #261132;
+    font-family: 'Merriweather', serif;
+            /* display: flex; */
+}
+.FormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+#searchBtn{
+    align-self: end;
+    font-family: 'Merriweather', serif;
+}
