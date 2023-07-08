@@ -4,7 +4,9 @@ import CustomSideBar from '../../components/customSideBar/CustomSideBar'
 import PageHolder from '../../components/pageHolder/PageHolder'
 import './UserPage.css'
 import ChatBot from '../../components/chatBot/ChatBot'
-import { FaCrown, FaToolbox } from 'react-icons/fa'
+import { FaCrown, FaSearch, FaToolbox } from 'react-icons/fa'
+import CustomButton from '../../components/customButton/CustomButton'
+import CustomInput from '../../components/customInputs/CustomInput'
 function UserPage() {
 
   
@@ -38,6 +40,47 @@ function UserPage() {
                       <p className='Faicon'><FaToolbox/></p>
                       <p className='overlayChild'>Last Month Deposit</p>
                       </div>
+                  </div>
+              </div>
+              <div id='secondRow'>
+                <div className='firstDiv'>
+                  <div className='buttonLine'>
+                  <CustomButton value='New Order'/>
+                  <CustomButton value='Mass Order'/>
+                  <CustomButton value='Auto Likes/Views'/>
+                    
+                  </div>
+                  <div id='searchCont'>
+                  <CustomInput type='text' /><button id='search'>
+                    <FaSearch/>
+                  </button>
+                  </div>
+                </div>
+                <div className='secondDiv'>
+                  <div  className='buttonLine'>
+                     <CustomButton value='Service Description'/>
+                  <CustomButton value='News & Updates'/>
+                  </div>
+                  <div>
+                  <div className='divs'>
+                      <div className='Secdiv'>
+                          <p>Min/Max Quantity</p>
+                          <p>10/50000</p>
+                      </div>
+                      <div  className='Secdiv'>
+                      <p>Quality Examples</p>
+                          <p>N/A</p>
+                      </div>
+                      <div className='Secdiv'>
+                      <p>Price Per 1000</p>
+                          <p>0.2375</p>
+                      </div>
+                      <div className='Secdiv'>
+                      <p>Speed</p>
+                          <p>st-6 mins, sp/k -56 mins</p>
+                      </div>
+                </div>
+                </div>
                   </div>
               </div>
             </PageHolder>

@@ -3,9 +3,13 @@
     height: auto;
     min-height: 100vh;
 }
-#overlay{
+#overlay {
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     margin-left: 251px;
+    align-items: flex-start;
     width: -webkit-fill-available;
     min-height: 100vh;
     background-color: antiquewhite;
@@ -24,13 +28,13 @@
     justify-content: space-around;
     gap: 10px;
     align-items: center;
-    width: 100%;
+    width: 95%;
 }
 #overFirst{
     background:linear-gradient( to right,#161B33, rgba(29, 47, 151, 0.109)),url(/src/assets/images/jps/programmer.png)#161B33 ;
     background-size: 100% 100%;
 
-    width: 25%;
+    width: 35%;
 }
 .firstOverlay{
     width: 40%;
@@ -52,8 +56,94 @@
     font-family: tahoma;
     font-size: 20px;
 }
+#secondRow{
+    display: flex;
+}
+.buttonLine{
+    display: flex;
+    width: 100%;
+}
+.buttonLine input[type=button]{
+    width: fit-content !important;
+    padding: 5px;
+    font-size: 20px;
+}
+#searchCont{
+    width: 100%;
+}
+#searchCont input[type=text]{
+    width: 80% !important;
+    border: 1px solid #ff6d00;
+    background-color: transparent;
+    border-radius: 3px;
+}
+#searchCont input[type=button]{
+    width: 5% !important;
+}
+#searchCont {
+    display: flex;
+    width: 100%;
+}
+#search{
+    padding: 1px;
+    border: 1px solid black;
+    color: yellow;
+    border-radius: 3px;
+    transition: 500ms;
+    background-color: #131b32;
+    margin: 5px;
+    cursor: pointer;
+    /* padding: 20px; */
+    width: 40px;
+    height: 40px;
+}
+.divs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Secdiv{
+    width: 45%;
+    border: 2px solid #ff6d00;
+    border-radius: 15px;
+    padding: 5px ;
+}
+@media screen and (max-width:1100px) {
+    .containerRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+        align-items: start;
+        width: 95%;
+    }
+    .firstOverlay {
+        width: 40%;
+        height: 250px;
+        border-radius: 20px;
+        color: white;
+        background: #161B33;
+    }
+    #overFirst {
+        width: 80%;
+    }
+}
 @media screen and (max-width:800px) {
     #overlay {
         margin-left: 0;
+    }
+    .diver {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    #overFirst {
+        width: 100%;
+    }
+    .Faicon{
+        width: 80%;
     }
 }
