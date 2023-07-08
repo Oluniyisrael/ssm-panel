@@ -55,6 +55,20 @@ function UserPage() {
                     <FaSearch/>
                   </button>
                   </div>
+                  <div>
+                  icons
+                </div>
+                <div>
+                  Category
+                  <select name="" id="">
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  </select>
+                </div>
                 </div>
                 <div className='secondDiv'>
                   <div  className='buttonLine'>

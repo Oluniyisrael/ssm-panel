@@ -127,6 +127,9 @@
     #overFirst {
         width: 80%;
     }
+    #secondRow {
+        flex-direction: column;
+    }
 }
 @media screen and (max-width:800px) {
     #overlay {
