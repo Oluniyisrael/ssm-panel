@@ -63,10 +63,12 @@
     display: flex;
     width: 100%;
 }
-.buttonLine input[type=button]{
+.buttonLine input[type=button] {
+    width: -moz-fit-content !important;
     width: fit-content !important;
     padding: 5px;
-    font-size: 20px;
+    font-size: 10px;
+    font-weight: 900;
 }
 #searchCont{
     width: 100%;

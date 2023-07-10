@@ -8,7 +8,7 @@ nav {
         /* background-color:  #131b32; */
     background-color: #161B33;
     height: fit-content;
-    position: absolute;
+    position: fixed;
   }
   #nav{
     /* border:20px solid black ; */

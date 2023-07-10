@@ -125,6 +125,18 @@ function UserPage() {
                   <p>Something</p>
                   <p>Another thing</p>
                 </div>
+                <div className="Pridiv">
+                  <p>Something</p>
+                  <p>Another thing</p>
+                </div>
+                <div className="Pridiv">
+                  <p>Something</p>
+                  <p>Another thing</p>
+                </div>
+                <div className="Pridiv">
+                  <p>Something</p>
+                  <p>Another thing</p>
+                </div>
                 </div>
                   </div>
               </div>
