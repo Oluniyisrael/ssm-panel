@@ -108,11 +108,37 @@
     border-radius: 15px;
     padding: 5px ;
 }
+.firstDiv, .secondDiv{
+    width: 45%;
+    border: 2px solid #ff6d00;
+    margin: 2em 0;
+    padding: 1em;
+    border-radius: 20px;
+}
+.secondDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+#secondRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.Pridiv{
+    width: 90%;
+    border: 2px solid #ff6d00;
+    margin: 20px auto;
+    padding: 1em;
+    border-radius: 20px;
+}
 @media screen and (max-width:1100px) {
     .containerRow {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center !important;
         gap: 10px;
         align-items: start;
         width: 95%;
@@ -129,8 +155,20 @@
     }
     #secondRow {
         flex-direction: column;
+        align-items: center;
     }
+    .firstDiv, .secondDiv{
+        width: 70%;
+        border: 2px solid #ff6d00;
+    }
+
+    #overlay {
+    margin-left: 0;
+    align-items: center;
+    }
+
 }
+
 @media screen and (max-width:800px) {
     #overlay {
         margin-left: 0;

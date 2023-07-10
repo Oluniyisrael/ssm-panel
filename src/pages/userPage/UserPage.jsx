@@ -59,6 +59,32 @@ function UserPage() {
                   icons
                 </div>
                 <div>
+                  <div>
+                Category
+                  <select name="" id="">
+                  <option value="1">Something</option>
+                  <option value="2">Something</option>
+                  <option value="3">Something</option>
+                  <option value="4">Something</option>
+                  <option value="5">Something</option>
+                  <option value="6">Something</option>
+                  </select>
+                  </div>
+                  <div>
+                      Service
+                  <select name="" id="">
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  <option value="1">Something</option>
+                  </select>
+                  </div>
+                 
+                  <div id='searchCont'>
+                  <CustomInput type='text' />
+                  </div>
                   Category
                   <select name="" id="">
                   <option value="1">Something</option>
@@ -69,6 +95,7 @@ function UserPage() {
                   <option value="1">Something</option>
                   </select>
                 </div>
+                
                 </div>
                 <div className='secondDiv'>
                   <div  className='buttonLine'>
@@ -93,6 +120,10 @@ function UserPage() {
                       <p>Speed</p>
                           <p>st-6 mins, sp/k -56 mins</p>
                       </div>
+                </div>
+                <div className="Pridiv">
+                  <p>Something</p>
+                  <p>Another thing</p>
                 </div>
                 </div>
                   </div>
