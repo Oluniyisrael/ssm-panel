@@ -3,7 +3,7 @@ import './CustomSideBar.css'
 import CustomButton from '../customButton/CustomButton'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/jps/IMG-20230705-WA0007.51e16a23b37c3fb89e9e-removebg-preview.png'
-import { FaCartPlus, FaChartArea, FaCode, FaCoins, FaDollarSign, FaIdCard, FaShoppingBag, FaStackExchange, FaToolbox, FaUser } from 'react-icons/fa'
+import { FaCartPlus, FaChartArea, FaCode, FaCoins, FaDollarSign, FaIdCard, FaShoppingBag, FaToolbox, FaUser } from 'react-icons/fa'
 
 function CustomSideBar() {
 

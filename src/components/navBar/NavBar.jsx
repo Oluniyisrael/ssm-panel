@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/images/jps/IMG-20230705-WA0007.51e16a23b37c3fb89e9e-removebg-preview.png'
+// import logo from '../../assets/images/jps/IMG-20230705-WA0007.51e16a23b37c3fb89e9e-removebg-preview.png'
 import './NavBar.css'
 import { Link } from "react-router-dom";
 import CustomButton from '../customButton/CustomButton';
