@@ -135,6 +135,16 @@
     padding: 1em;
     border-radius: 20px;
 }
+#link{
+    width: 90% !important;
+}
+#charge{
+    width: 90% !important;
+}
+#NewOrder{
+    width: 90% !important;
+    text-align: center;
+}
 @media screen and (max-width:1100px) {
     .containerRow {
         display: flex;

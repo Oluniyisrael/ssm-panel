@@ -95,7 +95,24 @@ function UserPage() {
                   <option value="1">Something</option>
                   </select>
                 </div>
-                
+
+                <div>
+                  <p>Link</p>
+                  <CustomInput id='link'/>
+                </div>
+                <div>
+                  <p>Quantity</p>
+                  <CustomInput id='link'/>
+                  <p>Min:10  Max:50000</p>
+                </div>
+                <div>
+                  <p>Charge</p>
+                  <CustomInput id='charge'/>
+                </div>
+                <div>
+                  <p>Charge</p>
+                  <CustomButton id='NewOrder' value='New Order'/>
+                </div>
                 </div>
                 <div className='secondDiv'>
                   <div  className='buttonLine'>
