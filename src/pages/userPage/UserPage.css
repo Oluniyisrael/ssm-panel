@@ -152,7 +152,7 @@
         justify-content: space-around;
         align-items: center !important;
         gap: 10px;
-        align-items: start;
+        align-items: flex-start;
         width: 95%;
     }
     .firstOverlay {
