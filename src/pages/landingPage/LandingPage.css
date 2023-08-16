@@ -2,7 +2,9 @@
     height: 100vh;
     width: 100%;
     background-color: #261132;
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .FormContainer {
     display: flex;
