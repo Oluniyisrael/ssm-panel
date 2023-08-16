@@ -31,6 +31,7 @@ function Form() {
     function signIn() {
         if (isCorrect() === true) {
             alert("Good to go!")
+            setTimeout(()=>{window.location +='user'},2000)
         }
         else{
             alert('Going nowhere')
